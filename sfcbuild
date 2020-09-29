@@ -1,0 +1,8 @@
+nvm use 0.12
+
+rm -Rf components
+rm -Rf node_modules
+make clean
+
+npm install
+make build
